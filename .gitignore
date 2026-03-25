@@ -5,3 +5,7 @@ build/
 local.properties
 *.log
 library/build/
+
+# Internal docs
+CLAUDE.md
+android_pptx_library_spec.md
