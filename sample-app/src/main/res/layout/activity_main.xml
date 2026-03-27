@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DroidSlide Sample App"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnBasicReadWrite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Basic Read/Write"
+                android:layout_marginBottom="8dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnStyledText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Styled Text"
+                android:layout_marginBottom="8dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnShapesImages"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Shapes &amp; Images"
+                android:layout_marginBottom="8dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSlideOps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Slide Operations"
+                android:layout_marginBottom="8dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnCharts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Charts"
+                android:layout_marginBottom="8dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. Password Protection"
+                android:layout_marginBottom="8dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnHtmlExport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7. HTML Export"
+                android:layout_marginBottom="8dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnFullPresentation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8. Full Presentation (All Features)"
+                android:layout_marginBottom="8dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnRunAll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Run All Demos"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_marginBottom="16dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#F5F5F5"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tvLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textSize="12sp"
+            android:text="Ready.\n" />
+    </ScrollView>
+
+</LinearLayout>
